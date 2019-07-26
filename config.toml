@@ -9,9 +9,7 @@ theme = "aafu"
     copyright = "aaa"
 
     [params.theme]
-        allowToggle = true
-        mainTheme = "light"
-        altTheme = "dark"
+        mainTheme = "dark"
 
     [params.favicons]
         use = true
@@ -26,9 +24,9 @@ theme = "aafu"
 
     # Profile section
     [params.profile]
-        name = "First Last, Abbr."
-		tagline = "Title"
-		location = "City Name, ST"
+        name = "Siwapan (Pete) Tanthmanatham"
+		tagline = "Software Engineer "
+		location = "Dallas, TX"
         photo = "pete2.jpg"
 
     # Section for links to social websites
@@ -38,7 +36,7 @@ theme = "aafu"
         [[params.social.list]]
             class = "fab"
             icon = "fa-linkedin-in"
-            url = "#"
+            url = "https://www.linkedin.com/in/siwapan-tanthmanatham-22819092/"
             title = "LinkedIn"		
         [[params.social.list]]
             class = "fab"
@@ -48,13 +46,13 @@ theme = "aafu"
         [[params.social.list]]
             class = "fab"
             icon = "fa-github"
-            url = "#"
+            url = "https://github.com/pete210339"
             title = "GitHub"
         [[params.social.list]]
             class = "fab"
-            icon = "fa-twitter"
-            url = "#"
-            title = "Twitter"
+            icon = "fa-facebook"
+            url = "https://www.facebook.com/pete.siwapan"
+            title = "Facebook"
 		[[params.social.list]]
             class = "ai"
             icon = "ai-google-scholar"
@@ -94,15 +92,10 @@ theme = "aafu"
         icon = "fas fa-briefcase"
 
         [[params.experience.list]]
-            position = "Job Title"
-            dates = "2019 - *Present*"
-            company = "Company Name"
-            details = "Printed from desktop. Sent [emails](#). Called people using telephone. Drank water from office cooler. Ate donuts on people's birthdays."
-        [[params.experience.list]]
-            position = "Job Title"
-            dates = "2018 - 2019"
-            link = "#"
-            company = "Company Name"
+            position = "Software Engineer "
+            dates = "2018 - *Present*"
+            company = "Allstate"
+            details = "Full stack web developer responsible for end-to-end web app development using javascript and react/reduce."
 
     # Education section
     [params.education]
@@ -110,21 +103,9 @@ theme = "aafu"
         icon = "fas fa-graduation-cap"
 
         [[params.education.list]]
-            degree = "Ph.D. in Subject"
-            college = "University of State-City"
-            dates = "2013 - 2018"
-            thesis_title = "Effect of humans on other humans: a study of human behavior."
-            thesis_link = "#"
-        [[params.education.list]]
-            degree = "M.S. in Subject"
-            college = "University of State-City"
-            dates = "2013 - 2018"
-            thesis_title = "Effect of humans on other humans: a study of human behavior."
-            thesis_link = "#"
-        [[params.education.list]]
-            degree = "B.S. in Subject"
-            college = "University of State-City"
-            dates = "2004 - 2009"
+            degree = "B.S. in Computer Science (Cum Laude)"
+            college = "University of Nevada, Las Vegas"
+            dates = "2014 - 2018"
 
     # Publication section
     [params.publication]
