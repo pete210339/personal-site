@@ -38,11 +38,11 @@ theme = "aafu"
             icon = "fa-linkedin-in"
             url = "https://www.linkedin.com/in/siwapan-tanthmanatham-22819092/"
             title = "LinkedIn"		
-        [[params.social.list]]
-            class = "fab"
-            icon = "fa-stack-overflow"
-            url = "#"
-            title = "StackOverflow"
+        #[[params.social.list]]
+         #   class = "fab"
+          #  icon = "fa-stack-overflow"
+         #   url = "#"
+           # title = "StackOverflow"
         [[params.social.list]]
             class = "fab"
             icon = "fa-github"
@@ -53,16 +53,17 @@ theme = "aafu"
             icon = "fa-facebook"
             url = "https://www.facebook.com/pete.siwapan"
             title = "Facebook"
-		[[params.social.list]]
-            class = "ai"
-            icon = "ai-google-scholar"
-            url = "#"
-            title = "Google Scholar"
-		[[params.social.list]]
-            class = "ai"
-            icon = "ai-researchgate"
-            url = "#"
-            title = "ResearchGate"
+		#[[params.social.list]]
+         #   class = "ai"
+          #  icon = "ai-google-scholar"
+           # url = "#"
+            #title = "Google Scholar"
+	#	[[params.social.list]]
+        #    class = "ai"
+          #  icon = "ai-researchgate"
+          #  url = "#"
+          #  title = "ResearchGate"
+
 
     #Specify what is showin in the Accordion
     [[params.showInAccordion]]
@@ -84,7 +85,7 @@ theme = "aafu"
     [params.aboutme]
         title = "About Me"
         icon = "fas fa-user"
-        description = "**Tagline. Lorem ipsum dolor sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        description = "Experienced Software Engineer with a demonstrated history of working in the insurance industry. Skilled in Java, JavaScript, and React. Strong engineering professional with a Bachelor of Science (B.S.) focused in Computer Science from University of Nevada-Las Vegas. "
 
     # Experience section
     [params.experience]
@@ -95,12 +96,26 @@ theme = "aafu"
             position = "Software Engineer "
             dates = "2018 - *Present*"
             company = "Allstate"
-            details = "Full stack web developer responsible for end-to-end web app development using javascript and react/reduce."
+            details = """<ul>
+                <li>Utilized Agile software development practices as a member of a full-stack Scrum team</li>
+                <li>Gained experience developing Web Applications
+                <ul>
+                    <li>Developed and supported an internal production application</li>
+                    <li>React/Redux and Java (Spring)</li>
+                </ul>
+                <li>Worked closely with senior engineers and enhanced knowledge of JavaScript</li>
+            </ul>"""
+
 
     # Education section
     [params.education]
         title = "Education"
         icon = "fas fa-graduation-cap"
+
+        [[params.education.list]]
+            degree = "M.S. in Cybersecurity and Information Assurance"
+            college = "Western Governors University"
+            dates = "2020 - *Present*"
 
         [[params.education.list]]
             degree = "B.S. in Computer Science (Cum Laude)"
@@ -109,53 +124,53 @@ theme = "aafu"
 
     # Publication section
     [params.publication]
-        title = "Publications"
-        icon = "fas fa-book"
+       #title = "Publications"
+       # icon = "fas fa-book"
         #The order below determines the order in which the items appear in "Publications" section
         format = ["date", "authors", "title", "journal"]
 
-        [[params.publication.list]]
-            title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            authors = "F Last, F Second, P secondary"
-            date = "2018"
-            journal = "Journal of Field 52 (16), 9033-9044"
-            link = "#"
+       # [[params.publication.list]]
+        #    title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        #    authors = "F Last, F Second, P secondary"
+        #    date = "2018"
+         #   journal = "Journal of Field 52 (16), 9033-9044"
+         #   link = "#"
 
-        [[params.publication.list]]
-            title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            authors = "F Last, F Second, P secondary"
-            date = "2018"
-            journal = "Journal of Field 52 (16), 9033-9044"
-            link = "#"
+       # [[params.publication.list]]
+         #   title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          #  authors = "F Last, F Second, P secondary"
+           # date = "2018"
+          #  journal = "Journal of Field 52 (16), 9033-9044"
+          #  link = "#"
 		
-        [[params.publication.list]]
-            title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-            authors = "F Last, F Second, P secondary"
-            date = "2018"
-            journal = "Journal of Field 52 (16), 9033-9044"
-            link = "#"
+       # [[params.publication.list]]
+         #   title = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          #  authors = "F Last, F Second, P secondary"
+          #  date = "2018"
+          #  journal = "Journal of Field 52 (16), 9033-9044"
+           # link = "#"
 
     # Project section
-    [params.project]
-        title = "Projects"
-        icon = "fas fa-project-diagram"
+    #[params.project]
+       # title = "Projects"
+       # icon = "fas fa-project-diagram"
 
-        [[params.project.list]]
-            title = "project"
-            url = "#"
-            description = "Description of the project"
-        [[params.project.list]]
-            title = "project"
-            url = "#"
-            description = "Description of the project"
-        [[params.project.list]]
-            title = "project"
-            url = "#"
-            description = "Description of the project"
-        [[params.project.list]]
-            title = "project"
-            url = "#"
-            description = "Description of the project"            
+       # [[params.project.list]]
+          #  title = "project"
+          #  url = "#"
+          #  description = "Description of the project"
+      #  [[params.project.list]]
+        #    title = "project"
+        #    url = "#"
+        #    description = "Description of the project"
+       # [[params.project.list]]
+         #   title = "project"
+          #  url = "#"
+          #  description = "Description of the project"
+      #  [[params.project.list]]
+         #   title = "project"
+          #  url = "#"
+          #  description = "Description of the project"            
 
     # Skill section
     [params.skill]
@@ -164,14 +179,18 @@ theme = "aafu"
         icon = "fas fa-cogs"
 
         [[params.skill.list]]
-            skill = "Skill 1, Skill 2"
+            skill = "Java"
             skillrating = 90
         [[params.skill.list]]
-            skill = "Skill 3"
-            skillrating = 80
+            skill = "Javascript, React/Redux"
+            skillrating = 70
         [[params.skill.list]]
-            skill = "Skill 4"
-            skillrating = 50
+            skill = "Oracle 11g/12c, Microsoft SQL Server"
+            skillrating = 65
+        [[params.skill.list]]
+            skill = "Spring Cloud, Spring MVC, Spring Boot"
+            skillrating = 60
+            
 
     # Hobby section
     [params.hobby]
@@ -183,4 +202,12 @@ theme = "aafu"
         [[params.hobby.list]]		
 		    hobby = "Hiking"
         [[params.hobby.list]]		
-		    hobby = "Baking"
+		    hobby = "Video Games"
+        [[params.hobby.list]]		
+		    hobby = "Tennis"
+        [[params.hobby.list]]		
+		    hobby = "Volleyball"
+        [[params.hobby.list]]	
+            hobby = "Anime"
+        [[params.hobby.list]]	
+            hobby = "Kdrama"
